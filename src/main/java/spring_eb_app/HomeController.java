@@ -22,7 +22,7 @@ public class HomeController {
     public Map<String, String> home() {
         Map<String, String> response = new LinkedHashMap<>();
         response.put("status", "running");
-        response.put("message", "Spring Boot app deployed on AWS Elastic Beanstalk");
+        response.put("message", "this is the lab app deployed on AWS Elastic Beanstalk");
         response.put("version", APP_VERSION);
         response.put("timestamp", new Date().toString());
         response.put("platform", "Elastic Beanstalk + Java 17");
